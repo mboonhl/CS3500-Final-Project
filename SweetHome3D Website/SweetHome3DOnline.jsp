@@ -1,86 +1,16 @@
 
-
-
-
-
-
-
-
-
-   
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>Sweet Home 3D Online</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="Description" content="Draw floor plans and layout furniture in your browser">
-<link rel="alternate" type="application/rss+xml" title="RSS" href="/blog/rss.xml" />
-<link href="sweethome3d.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="http://java.com/js/deployJava.js"></script>
-<script type="text/javascript" src="SweetHome3D.js"></script>
+
+<script type="text/javascript" src="deployJava.js"></script>
+
 
 
 
 </head>
 <body>
 <div id="content">
-  
-
-
-
-
-
-
-
-
-
-
-<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td>
-<table border="0" cellpadding="0" cellspacing="0" width="100%" background="/images/decoration/headerBackground.gif" id="mainHeader">
-  <tr height="75"> 
-    
-    <td width="269"><a href="/"><img src="/images/SweetHome3DLogo.png" width="269" height="65" border="0" 
-                                                                       style="margin:5px" title="Home"/></a></td>
-    <td width="50%"><img src="/images/filler.gif" width="2" height="2"/></td>
-    
-    <td align="right" valign="middle" nowrap="true"><h3 class="headerItem"><a href="/features.jsp" 
-          class="headerItem">Features</a></h3>
-      <img src="/images/filler.gif" width="10" height="10"/></td>
-    
-    <td width="12" background="/images/decoration/headerSeparator.gif"><img src="/images/filler.gif" width="12" height="2"/></td>
-    
-    <td align="right" valign="middle" nowrap="true"><h3 class="headerItem"><a href="/download.jsp" 
-          class="headerItem">Download</a></h3>
-      <img src="/images/filler.gif" width="10" height="10"/></td>
-    
-    <td width="12" background="/images/decoration/headerSeparator.gif"><img src="/images/filler.gif" width="12" height="2"/></td>
-    
-    <td align="right" valign="middle" nowrap="true"><h3 class="headerItem"><a href="/SweetHome3DOnline.jsp" 
-          class="headerItem">Online</a></h3>
-      <img src="/images/filler.gif" width="10" height="10"/></td>
-    
-    <td width="12" background="/images/decoration/headerSeparator.gif"><img src="/images/filler.gif" width="12" height="2"/></td>
-    
-    <td align="right" valign="middle" nowrap="true"><h3 class="headerItem"><a href="/gallery.jsp" 
-          class="headerItem">Gallery</a></h3>
-      <img src="/images/filler.gif" width="10" height="10"/></td>
-    
-    <td width="12" background="/images/decoration/headerSeparator.gif"><img src="/images/filler.gif" width="12" height="2"/></td>
-    
-    <td align="right" valign="middle" nowrap="true"><h3 class="headerItem"><a href="/blog/" 
-          class="headerItem">Blog</a></h3>
-      <img src="/images/filler.gif" width="10" height="10"/></td>
-    
-    <td width="50%"><img src="/images/filler.gif" width="2" height="2"/></td>
-    
-    <form method="get" action="/search/search.jsp" name="search"
-          onSubmit='javascript:eraseSearchValue("Search...", "query");'>
-      <td align="right" valign="middle" nowrap="true"> 
-        <input type="hidden" name="lang" value="en"/> 
-        <input type="text"   id="query" name="query" size="15" maxlength="255" value=""
-           onFocus='javascript:eraseSearchValue("Search...", "query");' 
-           onBlur='javascript:setSearchValue("Search...", "query");'></td>
-      <td valign="middle" nowrap="true"><input type="image" src="/images/search.gif" alt="Search" style="margin:5px"/></td>
     </form>
     <script>
       <!--
