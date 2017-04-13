@@ -18,11 +18,16 @@
    <script src="bootstrap3_defaultTheme/assets/js/html5shiv.js"></script>
    <script src="bootstrap3_defaultTheme/assets/js/respond.min.js"></script>
  <![endif]-->
+
+<script type="text/JavaScript" src="chapter12-project02.js"> </script>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
+<script type="text/javascript"> window.jQuery || document.write('<script src="/jquery-1.9.1.min.js"><\/script>'); </script>
+
 </head>
 
 <body>
 
-
+<h1 id="demo"></h1>
 
 <?php include 'art-header.inc.php' ?>
 
@@ -54,64 +59,7 @@
       <div class="col-md-9">
       
       
-<form role="form" class="form-horizontal" action="art-form-process.php" method="post">
-   <div class="page-header">
-      <h2>Register Account</h2>
-      <p>If you already have an account with us, please login at the login page.</p>   
-   </div>
-
-
-     <div class="form-group">
-       <label for="first" class="col-md-3 control-label">First Name</label>
-       <div class="col-md-9">
-       <input type="text" class="form-control" name="first" >
-       </div>
-     </div>
-     <div class="form-group">
-       <label for="last" class="col-md-3 control-label">Last Name</label>
-       <div class="col-md-9">
-       <input type="text" class="form-control" name="last" >
-       </div>
-     </div>
-     <div class="form-group">
-       <label for="email" class="col-md-3 control-label">Email</label>
-       <div class="col-md-9">
-       <input type="email" class="form-control error" name="email">
-       </div>
-     </div>        
-
-
-     <div class="form-group">
-       <label for="password1" class="col-md-3 control-label">Password</label>
-       <div class="col-md-9">
-       <input type="password" class="form-control" name="password1">
-       </div>
-     </div>
-     <div class="form-group">
-       <label for="password2" class="col-md-3 control-label">Password Confirm</label>
-       <div class="col-md-9">
-       <input type="password" class="form-control" name="password2">
-       </div>
-     </div>
-  <div class="form-group">
-    <div class="col-md-offset-3 col-md-9">
-      <div class="checkbox">
-        <label>
-          <input type="checkbox" name="privacy" > I agree to the <a href="#">privacy policy</a>
-        </label>
-      </div>
-    </div>
-  </div>     
-
-
-  <div class="form-group">
-    <div class="col-md-offset-3 col-md-9">
-      <button type="submit" class="btn btn-primary">Register</button>
-    </div>
-  </div>
-   
-    
-   </form>  
+<!--  -->
 </div>  
 </div> 
       
@@ -121,7 +69,7 @@
 
 </div>  <!-- end container -->
 
-<?php include 'art-footer.inc.php' ?>
+<!-- <?php include 'art-footer.inc.php' ?> -->
 
  <!-- Bootstrap core JavaScript
  ================================================== -->

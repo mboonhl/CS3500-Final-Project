@@ -29,12 +29,12 @@
       <div class="container">
          <div class="row">
             <div class="col-md-8">
-                <h1>Art Store</h1> 
+                <h1 id="plugheader">Find My Plug</h1> 
             </div>
             
 
             <div class="col-md-4">
-               <form class="form-inline" role="search">
+               <!-- <form class="form-inline" role="search">
                <div class="input-group">
                   <label class="sr-only" for="search">Search</label>
                   <input type="text" class="form-control" placeholder="Search" name="search">
@@ -42,7 +42,7 @@
                   <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
                   </span>
                </div>
-               </form> 
+               </form>  -->
             </div>
 
                         
@@ -52,7 +52,7 @@
       </div>
    </div>
    
-   <div id="mainNavigationRow" >
+   <!-- <div id="mainNavigationRow" >
       <div class="container">
 
          <nav class="navbar navbar-default" role="navigation">
@@ -87,6 +87,6 @@
             </div>
          </nav>
       </div>  <!-- end container -->
-   </div>  <!-- end mainNavigationRow -->
+   </div> -->  <!-- end mainNavigationRow -->
    
 </header>
